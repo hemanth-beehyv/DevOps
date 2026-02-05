@@ -1,7 +1,7 @@
 jenkins:
   kubeTargetVersionOverride: "1.35.2"
   fullnameOverride: "jenkins"
-  namespaceOverride: "admin"
+  namespaceOverride: "monitoring-stg"
   controller:
     jenkinsUriPrefix: "/jenkins"
     installPlugins:
